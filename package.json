@@ -1,0 +1,49 @@
+{
+    "name": "zhi_hui_yuan_qu",
+    "version": "2.0.0",
+    "private": true,
+    "license": "ISC",
+    "scripts": {
+        "serve": "node ./scripts/prepare.js serve",
+        "build": "node ./scripts/prepare.js build",
+        "serve17": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+        "build17": "SET NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service build",
+        "serve14": "vue-cli-service serve",
+        "build14": "vue-cli-service build"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^1.0.0",
+        "@turf/turf": "^6.5.0",
+        "@types/js-cookie": "^3.0.1",
+        "animate.css": "^4.1.1",
+        "ant-design-vue": "^2.2.8",
+        "axios": "^0.24.0",
+        "core-js": "^3.6.5",
+        "dayjs": "^1.10.7",
+        "echarts": "^5.5.0",
+        "echarts-liquidfill": "^3.1.0",
+        "element-plus": "^2.6.3",
+        "gsap": "^3.9.1",
+        "highcharts": "^7.2.2",
+        "highcharts-vue": "^2.0.1",
+        "js-cookie": "^3.0.1",
+        "lodash": "^4.17.21",
+        "pinia": "^2.0.4",
+        "vue": "^3.0.0",
+        "vue-router": "^4.0.0-0",
+        "vue3-seamless-scroll": "^1.1.5"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.199",
+        "@types/node": "^20.8.6",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-typescript": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "sass": "^1.69.0",
+        "sass-loader": "^10.0.3",
+        "types__g": "*",
+        "typescript": "^4.9.0"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "marker3d": [
+        {
+            "name": "Point_B_8"
+        },
+        {
+            "name": "Point_B_4"
+        },
+        {
+            "name": "Point_B_5"
+        },
+        {
+            "name": "Point_B_6"
+        },
+        {
+            "name": "Point_Y_3"
+        },
+        {
+            "name": "Point_R_3"
+        },
+        {
+            "name": "Point_B_7"
+        },
+        {
+            "name": "Point_L_7"
+        },
+        {
+            "name": "Point_R_2"
+        },
+        {
+            "name": "Point_R_4"
+        }
+    ],
+    "markerPath": "/JC_CustomAssets/EffectLibrary/Exhibition/Point/"
+}
